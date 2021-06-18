@@ -16,19 +16,7 @@
         if($shop == "Atnshop")
         {
             header("locaiton:atnshop.php");
-        }
-        else
-        {
-            header("location: index.php");
-        }
-        if($shop == "Director")
-        {
-            header("location: admin.php");
-        }
-        else
-        {
-            header("location: index.php");
-        }
+        
     }
     pg_close();
 }
