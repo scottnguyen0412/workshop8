@@ -5,7 +5,7 @@
 	if($_SERVER["REQUEST_METHOD"] == "POST") 
 	{
     $pg_conn = pg_connect($conn_string);
-    $sql ="SELECT* FROM account WHERE username = '$user' AND password ='password'";
+    $sql ="SELECT* FROM account WHERE Username = '$user' AND Password ='password'";
     $result = pg_query($pg_conn,$sql);
     $num_rows = pg_num_rows($result);
 
