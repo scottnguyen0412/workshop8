@@ -15,7 +15,7 @@
         $shop =$row['shopname'];
         if($shop == "Atnshop")
         {
-            header("locaiton:atnshop.php");
+            header('locaiton:atnshop.php');
         
     }
     pg_close();
