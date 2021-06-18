@@ -16,6 +16,7 @@
         if($shop == "Atnshop")
         {
             header('locaiton:atnshop.php');
+	}
         
     }
     pg_close();
